@@ -3,8 +3,19 @@ nav {
     color: green;
 }
 main {
-    font-family: Serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 section {
     color:green;
+}
+table {
+    border-color: black;
+    border-style: double;
+}
+td {
+    Border-color: black;
+    border-style: double;
+    padding-left: 6px;
+    padding-right: 6px;
+    text-align:center;
 }
