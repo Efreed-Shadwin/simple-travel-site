@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/main.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+        rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
     </head>
     <body>
@@ -13,12 +19,43 @@
 
         </header>
         <main>
-            <figure>
-                <img src="images/fort-worth-mule-alley.jpg">
-                <img src="images/fort-worth-water-gardens-texas-186589532-5472c6437af74e379c6254b40c43c200.jpg">
-                <img src="images/illuminated-downtown-fort-worth-texas-usa-at-night-625608270-be4d92d8a2c54c2fa076d28d2af7c2f6.jpg">
-                <img src="images/iiif-service_gmd_gmd403_g4034_g4034f_pm009110-full-pct_25-0-default.jpg">
-            </figure>
+            <div id="SimpleCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#SimpleCarousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#SimpleCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#SimpleCarousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#SimpleCarousel" data-bs-slide-to="3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/fort-worth-mule-alley.jpg" alt="first slide" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/fort-worth-water-gardens-texas-186589532-5472c6437af74e379c6254b40c43c200.jpg" alt="second slide" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/illuminated-downtown-fort-worth-texas-usa-at-night-625608270-be4d92d8a2c54c2fa076d28d2af7c2f6.jpg" alt="third slide" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/iiif-service_gmd_gmd403_g4034_g4034f_pm009110-full-pct_25-0-default.jpg" alt="4th slide" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#SimpleCarousel" data-bs-slide="prev">
+
+                    <span class="carousel-control-prev-icon"></span>
+                        
+                    
+                    
+                </button>
+                    
+                <button class="carousel-control-next" type="button" data-bs-target="#SimpleCarousel" data-bs-slide="next">
+                    
+                    <span class="carousel-control-next-icon"></span>
+                        
+                    
+                    
+                </button>
+            </div>
 
         </main>
         <footer>

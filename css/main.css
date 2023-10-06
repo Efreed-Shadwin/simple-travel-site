@@ -1,6 +1,10 @@
 nav {
     border-bottom: none;
     color: green;
+    text-align: center;
+    border: 1px double black ;
+    border-radius: 3px;
+    background-color: orange;
 }
 main {
     font-family: 'Times New Roman', Times, serif;
@@ -18,4 +22,8 @@ td {
     padding-left: 6px;
     padding-right: 6px;
     text-align:center;
+}
+header {
+    text-align: center;
+    position: fixed center;
 }
